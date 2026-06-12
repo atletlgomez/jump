@@ -15,7 +15,7 @@ I wanted to create something more interactive than a blinking light. The game tr
 to the user is pressed. Both the lights traverse in a circle like pattern. Once the button is pressed, the score will print out and increment
 if timed perfectly with the light.
 
-##Challenges
+## Challenges
 
 1. Two Processes concuirenty Running
 
