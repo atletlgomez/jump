@@ -1,4 +1,4 @@
-#Jump (Reaction Game)
+# Jump (Reaction Game)
 
 ## HardWare:
 Arduino UNO R3
