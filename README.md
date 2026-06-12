@@ -1,5 +1,7 @@
 # Jump (Reaction Game)
 
+![](src/jumpgif.gif)
+
 ## HardWare:
 Arduino UNO R3
 BreadBoard
