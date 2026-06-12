@@ -78,7 +78,7 @@ class Led {
 
 
 //USER INPUT
-const int hitNow = 0;
+const int hitNow = 1;
 const int spotOn = 3;
 const int hitEarlyOrLate = 1;
 
@@ -113,7 +113,6 @@ void traverse(Led &light, int buttonState) {
 
     light.move();
 
-    perfectHit(light, buttonState);
 
     if (light.getPos() == 0) {
         light.reset();
@@ -122,12 +121,12 @@ void traverse(Led &light, int buttonState) {
     digitalWrite(lights[light.getPos()], HIGH);
 
 
-    perfectHit(light, buttonState);
-
-
-
 
 }
+
+
+
+
 Led noteOne;
 Led noteTwo(rngInterval);
 
@@ -135,3 +134,6 @@ Led noteTwo(rngInterval);
 const unsigned long timeDelay = 700;
 unsigned long lastTime = 0;
 
+//test might delete later
+int firstTest = noteOne.getPos();
+int secondTest = noteTwo.getPos();
